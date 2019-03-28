@@ -1,0 +1,92 @@
+{
+ "register":{
+   "locatorType":"linkText",
+   "locator":"REGISTER"
+   },
+	"support":{
+	 "locatorType":"linkText",
+   "locator":"SUPPORT"
+   },
+   "first_name":{
+   	"locatorType":"name",
+   	"locator":"firstName"
+   },
+   "last_name":{
+   	"locatorType":"name",
+   	"locator":"lastName"
+   },
+    "submit":{
+   	"locatorType":"name",
+   	"locator":"submit"
+   },
+   "git":{
+   	"locatorType":"xpath",
+   	"locator":"/html/body/div/div/div[2]/a"
+   },
+    "flights":{
+   "locatorType":"linkText",
+   "locator":"Flights"
+   },
+   
+   "one_way":{
+   "locatorType":"xpath",
+   "locator":"//input[@value='oneway']"
+	},
+	
+	 "number_of_passenger":{
+   "locatorType":"cssSelector",
+   "locator":"select[name='passCount']"
+	},
+	
+	 "business_class":{
+   "locatorType":"cssSelector",
+   "locator":"input[value='Business']"
+	},
+	
+	 "facebook_image":{
+   "locatorType":"cssSelector",
+   "locator":"i[class='fb_logo img sp_CDBF8O5xgeq sx_5a980e']"
+	},
+	
+	"user_name":{
+   "locatorType":"cssSelector",
+   "locator":"body > div:nth-child(6) > table > tbody > tr > td:nth-child(2) > table > tbody > tr:nth-child(4) > td > table > tbody > tr > td:nth-child(2) > table > tbody > tr:nth-child(2) > td:nth-child(3) > form > table > tbody > tr:nth-child(4) > td > table > tbody > tr:nth-child(2) > td:nth-child(1) > font"
+	},
+	
+	"choose_file":{
+   "locatorType":"cssSelector",
+   "locator":"input[type='file']"
+	},
+	
+	"google":{
+   "locatorType":"cssSelector",
+   "locator":"a[class='google']"
+	},
+	
+	"linux":{
+	 "locatorType":"linkText",
+   "locator":"Linux"
+   },
+   
+   
+   
+   
+   "search_box":{
+   	"locatorType":"cssSelector",
+   	"locator":"input[id='search']"
+   	},
+   	
+   	"search_icon":{
+   	"locatorType":"cssSelector",
+   	"locator":"button[id='search-icon-legacy']"
+   },
+   
+     	"song":{
+   	"locatorType":"cssSelector",
+   	"locator":"a[title='Dimitri Vegas & Like Mike vs David Guetta feat. Kiiara - Complicated (Official Music Video)']"
+   }
+	
+	
+	
+	
+}
